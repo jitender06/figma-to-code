@@ -1,0 +1,32 @@
+.home-action{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.search-location{
+    padding: 10px 15px;
+    border: 1px solid;
+}
+.search-doctors{
+    padding: 10px 15px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 35%;
+}
+.action-text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222222;
+}
+.action-btn{
+    padding: 7px 15px;
+    background-color: #0BDBB6;
+    color: white;
+    border: none;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}

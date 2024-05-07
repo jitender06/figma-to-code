@@ -1,0 +1,13 @@
+.download-action{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222222;
+}
+.download-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #7D7D7D;
+}
