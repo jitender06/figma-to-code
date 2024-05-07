@@ -15,12 +15,12 @@ import Donate from './assets/donate.png'
 import Funding from './assets/funding.png'
 export default function Info() {
   return (
-    <Grid container spacing={2} py={4}>
-        <Grid item xs={12} md={6}>
+    <Grid container spacing={0} py={4}>
+        <Grid item xs={12} md={5}>
             <img src={RightBanner} alt="banner" />
         </Grid>
-        <Grid item xs={12} md={6}>
-            <Grid container spacing={2} textAlign={"right"}>
+        <Grid item xs={12} md={7}>
+            <Grid container spacing={2}>
                 <Grid item xs={6} md={3}>
                     <img src={Doctor} alt="Doctor" />
                 </Grid>

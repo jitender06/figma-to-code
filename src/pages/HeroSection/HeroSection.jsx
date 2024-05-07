@@ -6,7 +6,7 @@ import './style.css'
 import Info from './components/Info';
 export default function HeroSection() {
   return (
-    <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+    <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
       <p className='action-text'>Lorem Ipsum Dolor Sit Amet, <span className='primary-color'>Consectetur Adipiscing Elit</span></p>
       <div className='home-action' style={{ position: 'relative' }}>
         <input className='search-location' placeholder='Search Location...' style={{ paddingLeft: '30px' }} />

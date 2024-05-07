@@ -5,7 +5,7 @@ import Email from './assets/email.png'
 import './style.css'
 export default function Contact() {
   return (
-    <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+    <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
         <Grid container spacing={3} pb={4}>
             <Grid item xs={12} md={6} alignContent={"center"}>
                 <p className='main-heading'>Lorem Ipsum Dolor <span className='primary-color'>Sit Amet</span></p>

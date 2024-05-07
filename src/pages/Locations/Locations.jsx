@@ -6,7 +6,7 @@ import './style.css'
 export default function Locations() {
     const state = ["Jammu & Kashmir", "Delhi", "Punjab", "Haryana", "Madhya Pradesh", "Uttar Pradesh", "Maharashtra", "Gujrat", "Rajasthan", "Chhattisgarh", "Bihar", "Kerela", "Arunachal Pradesh", "Assam", "Andhra Pradesh"]
   return (
-    <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+    <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
         <Grid container spacing={3} pb={4}>
             <Grid item xs={12} md={6}>
                 <img src={Map} alt="Map" />

@@ -44,7 +44,7 @@ export default function Category() {
     ]
   return (
     <Box sx={{background:"#F6FDF8"}}>     
-        <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+        <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
             <Grid container spacing={3} pb={4}>
                 <Grid item xs={12} textAlign={"center"}>
                     <p className='main-heading'>Lorem Ipsum Dolor <span className='primary-color'>Sit Amet</span></p>

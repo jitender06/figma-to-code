@@ -55,7 +55,7 @@ function NavBar() {
 
   return (
     <AppBar position="static" sx={{background:"white"}}>
-      <Container maxWidth="xl">
+      <Container sx={{maxWidth:"1200px"}}>
         <Box sx={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
             <Logo/>
           {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

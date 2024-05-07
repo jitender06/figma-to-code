@@ -24,7 +24,7 @@ export default function Blog() {
     ]
   return (
     <Box sx={{backgroundColor:"#F6FDF8"}}>
-        <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+        <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
             <Grid container spacing={3} pb={4}>
                 <Grid item xs={12} textAlign={"center"}>
                     <p className='main-heading'>Lorem Ipsum Dolor <span className='primary-color'>Sit Amet</span></p>
@@ -34,7 +34,7 @@ export default function Blog() {
                     card.map((value, index) => {
                         return <Grid key={index} item xs={12} md={4}>
                             <img src={Blog1} alt="Blog1" />
-                            <Box sx={{paddingRight:"90px", display:"flex", flexDirection:"column", gap:"8px"}}>
+                            <Box sx={{paddingRight:"20px", display:"flex", flexDirection:"column", gap:"8px"}}>
                                 <p className='blog-title'>{value.name}</p>
                                 <p className='blog-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus arcu ut nibh porta, ac porta diam vehicula. Quisque dignissim ullamcorper mauris sit amet egestas. Pellentesque sed magna ac nisl dapibus <span className='primary-color'>Read More...</span></p>
                             </Box>

@@ -6,7 +6,7 @@ import app from './assets/app.png'
 import './style.css'
 export default function DownloadApp() {
   return (
-    <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+    <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
         <Grid container spacing={3} pb={4}>
             <Grid item xs={12} md={6} margin={"auto 0px"} display={"flex"} alignItems={"flex-start"} gap={2} flexDirection={"column"}>
                 <p className='download-action'>Lorem Ipsum Dolor Sit Amet <br /> <span className='primary-color'>Download App</span></p>

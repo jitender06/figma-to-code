@@ -118,7 +118,7 @@ export default function Footer() {
 
   return (
     <>
-      <Container maxWidth="xl" sx={{padding:"40px 0px"}}>
+      <Container sx={{padding:"40px 0px", maxWidth:"1200px"}}>
           <Grid container spacing={3} pb={4}>
             <Grid item xs={6} md={4.5} display={"grid"} gap={"20px"}>
               <img src={LogoFooter} alt="LogoFooter" />
